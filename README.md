@@ -87,12 +87,3 @@ Para mudanças grandes, abra uma issue primeiro para discutirmos.
 
 📄 Licença
 MIT License
-
-yaml
-Copiar código
-
----
-
-Se você quiser, eu posso criar também uma **versão resumida de descrição** para o GitHub (aquela frase curta que aparece no topo do repositório), bem chamativa para atrair visitantes.  
-
-Quer que eu faça isso também?
