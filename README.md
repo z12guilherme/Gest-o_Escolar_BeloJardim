@@ -1,4 +1,4 @@
-# 🎯 Gestão de Atípicos
+# 💻 Gestão de Atípicos
 
 ## ✨ Descrição
 **Gestão de Atípicos** é um sistema moderno para **gerenciamento de estudantes, professores e responsáveis**, construído com **React + Vite + TypeScript**.  
