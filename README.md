@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 🎯 Gestão de Atípicos
 
-## Project info
+## ✨ Descrição
+**Gestão de Atípicos** é um sistema moderno para **gerenciamento de estudantes, professores e responsáveis**, construído com **React + Vite + TypeScript**.  
+Ele possui dashboards dinâmicos, interface responsiva e integração completa com **Supabase** para autenticação e armazenamento de dados.
 
-**URL**: https://lovable.dev/projects/3d8e398c-5e0a-46ec-a3d0-a299fd27f2ac
+O sistema é ideal para escolas e instituições que precisam de **controle eficiente de usuários e estudantes**, com funcionalidades seguras e uma experiência intuitiva.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Funcionalidades
 
-**Use Lovable**
+- 👨‍🏫 Cadastro e gerenciamento de **professores, responsáveis e estudantes**  
+- 📊 Dashboards com estatísticas e relatórios em tempo real  
+- 🔒 Controle de acesso baseado em **roles (gestor, professor, responsável)**  
+- 🗄️ Integração com **Supabase** para backend e autenticação  
+- 🎨 Interface moderna com **Tailwind CSS**  
+- ✅ Consultas e operações seguras usando **RLS (Row Level Security)**  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3d8e398c-5e0a-46ec-a3d0-a299fd27f2ac) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tecnologias Utilizadas
 
-**Use your preferred IDE**
+- **Frontend**: React, Vite, TypeScript, Tailwind CSS  
+- **Backend/Database**: Supabase (PostgreSQL)  
+- **UI Components**: shadcn/ui, lucide-react  
+- **Gerenciamento de estado e dados**: React Query, Sonner (toasts)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Pré-requisitos
 
-Follow these steps:
+- Node.js >= 18  
+- NPM ou Yarn  
+- Conta no Supabase para backend e autenticação  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 💻 Instalação
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone o repositório:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+Instale as dependências:
+
+bash
+Copiar código
+npm install
+# ou
+yarn install
+Configure as variáveis de ambiente na raiz do projeto (.env):
+
+env
+Copiar código
+VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY=YOUR_ANON_KEY
+VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
+Atenção: Nunca use a service_role key no frontend.
+
+Rode o projeto localmente:
+
+bash
+Copiar código
 npm run dev
-```
+# ou
+yarn dev
+O site estará disponível em http://localhost:5173.
 
-**Edit a file directly in GitHub**
+📦 Build para Produção
+bash
+Copiar código
+npm run build
+# ou
+yarn build
+Os arquivos gerados ficam na pasta dist, prontos para deploy.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🌐 Deploy
+Pode ser hospedado em Netlify, Vercel ou qualquer servidor de arquivos estáticos.
 
-**Use GitHub Codespaces**
+Lembre-se de configurar as variáveis de ambiente no painel da plataforma.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🤝 Contribuição
+Pull requests são bem-vindos!
+Para mudanças grandes, abra uma issue primeiro para discutirmos.
 
-## What technologies are used for this project?
+📄 Licença
+MIT License
 
-This project is built with:
+yaml
+Copiar código
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+Se você quiser, eu posso criar também uma **versão resumida de descrição** para o GitHub (aquela frase curta que aparece no topo do repositório), bem chamativa para atrair visitantes.  
 
-Simply open [Lovable](https://lovable.dev/projects/3d8e398c-5e0a-46ec-a3d0-a299fd27f2ac) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Quer que eu faça isso também?
